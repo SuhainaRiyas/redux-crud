@@ -1,0 +1,6 @@
+export const FAIL_REQUEST = 'FAIL_REQUEST'
+export const STUDENT_LIST = 'STUDENT_LIST'
+export const DELETE_STUDENT = 'DELETE_STUDENT' 
+export const ADD_STUDENT = 'ADD_STUDENT'
+export const EDIT_STUDENT = 'EDIT_STUDENT'
+export const UPDATE_STUDENT = 'UPDATE_STUDENT'

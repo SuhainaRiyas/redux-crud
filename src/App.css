@@ -7,6 +7,22 @@
   pointer-events: none;
 }
 
+.user-form {
+  text-align: left;
+}
+
+.btn {
+  margin: 2px;
+}
+
+.row {
+  margin-right: 0px !important;
+}
+
+thead {
+  background-color: #6bc2a5;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -32,6 +48,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

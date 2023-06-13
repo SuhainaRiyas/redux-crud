@@ -1,0 +1,44 @@
+{
+  "students": [
+    {
+      "name": "Test",
+      "email": "test@gmail.com",
+      "phone": "9908089066",
+      "gender": "Male",
+      "college": "GCE",
+      "course": "b.tech",
+      "department": "it",
+      "id": 1
+    },
+    {
+      "name": "suhaina",
+      "email": "suhaina@gmail.com",
+      "phone": "9908089096",
+      "gender": "Female",
+      "college": "GCE TVL",
+      "course": "be",
+      "department": "ece",
+      "id": 4
+    },
+    {
+      "name": "Riyas",
+      "email": "riyas@gmail.com",
+      "phone": "8809767856",
+      "gender": "Male",
+      "college": "Anna University",
+      "course": "me",
+      "department": "mech",
+      "id": 5
+    },
+    {
+      "name": "Sample",
+      "email": "sample@gmail.com",
+      "phone": "7809767856",
+      "gender": "Female",
+      "college": "GCE",
+      "course": "m.tech",
+      "department": "it",
+      "id": 6
+    }
+  ]
+}
