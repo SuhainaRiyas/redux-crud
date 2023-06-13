@@ -104,7 +104,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        loadStudents: () =>  dispatch(fetchStudentList),
+        loadStudents: () =>  dispatch(fetchStudentList()),
         removeStudent : (id) => dispatch(removeStudentRecord(id)) 
     }
 }

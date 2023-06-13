@@ -38,10 +38,16 @@ export const deleteStudent = () => {
 }
 
 
-export const fetchStudentList = (dispatch) => {
-    axios.get('http://localhost:8080/students').then((response) => {
-        dispatch(studentList(response.data))
-    }).catch(err => dispatch(failRequest(err.message)))
+export const fetchStudentList = () => {
+    return (dispatch) => {
+        axios.get('http://localhost:8080/students')
+          .then((response) => {
+            dispatch(studentList(response.data))
+          })
+          .catch((err) => {
+            dispatch(failRequest(err.message))
+          });
+      }
 }
 
 export const addStudentRecord = (data) => {
